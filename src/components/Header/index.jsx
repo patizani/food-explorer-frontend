@@ -104,7 +104,11 @@ export function Header({search, toggleFavorites, isFiltered}){
      }
       <div className="iconMobile">
         <FiHeart size={22} />
-        <FiShoppingCart size={22} />
+        <div className="cart">
+          <FiShoppingCart size={22} />
+          <span>{cart.length}</span>
+        </div>
+       
       </div>
     
       <Logout>

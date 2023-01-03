@@ -59,6 +59,17 @@ export const Container = styled.header`
 
       position: absolute;
     }
+
+    .cart {
+      display: flex;
+      flex-direction: column-reverse ;
+      margin-top:-1.5rem ;
+      > span {
+        font-size: 1.2rem;
+        color: ${({ theme }) => theme.COLORS.LIGHT_BLUE}; 
+        padding-left: 2rem;;
+      }
+    }
   }
 `;
 
