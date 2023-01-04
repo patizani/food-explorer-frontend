@@ -1,29 +1,93 @@
 
 # Food Explorer
 
-## 💻 Sobre o desafio
-A aplicação que desenvolveremos é um cardápio digital para um restaurante fictício, conhecido como foodExplorer.
+## 💻 About
+The application that we will develop is a digital menu for a fictitious restaurant, known as foodExplorer.
 
 
-## Tecnologias usadas
-- React
-- HTML
-- Styled components
-- JavaScript
+## 🛠 Tech Stack
+- [React](https://reactjs.org/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Styled components](https://styled-components.com/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## ⚙️ Instruções
-1 - É importante que todas as instruções do desafio sejam lidas com muita atenção, já que a avaliação desse projeto, irá garantir a sua certificação aqui no Explorer;
+## 🚀 How to run the project
+This project is divided into two parts:
 
-2 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários;
+1) Backend (food-explorer-backend folder)
+2) Frontend (food-explorer-frontend folder)
 
-3 - O link do Figma possui o layout de uma aplicação completa que vai desde a visualização de um prato até o pagamento do mesmo. Algumas funcionalidades mais simples, serão obrigatórias e corrigidas enquanto as funcionalidades envolvendo todo o processo de pedidos, serão classificadas como milha extra, logo, não passarão por uma correção.
+### Pre-requisites
+Before starting, you will need to have the following tools installed on your machine: [Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/). Also, it's nice to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-4 - O foodExplorer terá duas personas: o administrador e o usuário;
+## 🎲 Running the BackEnd (Server)
 
-5 - É necessário se autenticar para entrar na aplicação através da tela de login;
+```bash
+  # Clone this repository
+$ git clone git@github.com:patizani/food-explorer-backend.git
 
-6 - O admin é a pessoa responsável pelo restaurante, logo, poderá criar, visualizar, editar e apagar um prato a qualquer momento. Cada prato deve conter uma imagem, um nome, uma breve descrição, os ingredientes e o seu preço. Ao clicar em adicionar prato, o admin receberá uma mensagem de sucesso e será redirecionado para a página principal;
+# Access the project folder in your terminal
+$ cd food-explorer-backend
 
-7 - O usuário irá visualizar todos os pratos cadastrados e, quando clicar em um prato, será redirecionado para uma nova tela com informações mais detalhadas sobre ele.
+# Install the dependencies
+$ npm install
 
-8 - Tanto o admin quanto o usuário poderão buscar os pratos por nome e/ou ingredientes;
+# Execute as migration e seed
+$ npm migrate
+$ npm seed
+
+# Run the application in development mode
+$ npm run dev
+
+# Login do admin
+$ email: admin@email.com
+$ password: 123456
+
+# he Server will start at port: 3333 - go to <http://localhost:3333>
+```
+
+## 🧭 Running the Frontend (Application)
+```bash
+# Clone this repository
+$ git clone git@github.com:patizani/food-explorer-frontend.git
+
+# Access the project folder in your terminal
+$ cd food-explorer-frontend
+
+# Install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ npm run dev
+```
+
+## ⚙️ Features
+- A structured project, with a good organization of folders, division of components in the front-end, etc.
+- A README.md file with specifications on how to run the project in a dev environment.
+- Users must authenticate themselves to enter the application through the login screen, you can apply what you learned in JWT authentication classes. Authentication must be validated with a password.
+- The admin will upload images to register the dishes.
+- Finally, deploy your application.
+- Give your functions and variables meaningful names: work with Clean Code concepts a bit.
+- The admin, restaurant and users data will be stored in a database.
+- Possibility to search by dish name, ingredients or favorite dish
+- It is essential that your interface consumes its own API.
+- Interesting to make the application responsive: use the concept of Mobile First that was learned in class.
+- It's up to you where to apply animations, transitions, and transformations.
+- It meets the model proposed in Figma and contains elements indicative of action and state. opcionais
+- The user can add items to the cart by clicking the add button. The amount is controlled by the “-” and “+” buttons;
+- By clicking on the my order button, the user will be redirected to a screen where he will see his order, the sum and the payment methods;
+- The user will be able to delete a dish from the cart and the total amount of the order should be updated automatically;
+- The user can mark a dish as a favorite, just click on the heart that appears next to each one;
+- The admin will view and control the status of each order, through a select field. Orders will appear in a table when you click Orders;
+
+## 🎨 Layout
+### Deploy
+
+[Food Explorer](https://foodexplorerpz.netlify.app/)
+
+
+## 📝 License
+This project is under the license
+[MIT](https://github.com/patizani/food-explorer-frontend/new/main)
+
+Made with ❤️ by Patrícia Garcia Zanirati 👋🏽 [Get in Touch!](https://www.linkedin.com/in/patricia-zanirati/)
