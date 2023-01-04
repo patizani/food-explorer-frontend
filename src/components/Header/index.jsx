@@ -81,7 +81,7 @@ export function Header({search, toggleFavorites, isFiltered}){
         <input 
           type="text"
           placeholder="Busque pelas opções de pratos"  
-            onChange={e => {search(e.target.value)}}
+          onChange={e => {search(e.target.value)}}
         />
       </Search>
       {

@@ -36,7 +36,7 @@ export function Home() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const response = await api.get(`/products?title=${search}&ingredients=${search}`);
+      const response = await api.get(`/products?title=${search}`);
       setProducts(response.data);
       setVisibleProducts(response.data);
     }
