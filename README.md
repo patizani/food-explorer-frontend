@@ -90,7 +90,7 @@ This step may take up to 1 minute, depending on the load on the Render servers.
 
 ## 🎨 Layout
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/github/Food_Explorer_-_Google_Chrome_2023-01-05_01-11-39_AdobeExpress.gif" width="80%">
+  <img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/github/foodExplorer.gif" width="80%">
 
 </p>
 
