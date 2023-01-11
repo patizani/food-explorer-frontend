@@ -1,3 +1,4 @@
+
 # ![Logo](https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/logoHeader.svg) Food Explorer
 
 ## 💻 About
@@ -88,6 +89,7 @@ This step may take up to 1 minute, depending on the load on the Render servers.
 - The admin will view and control the status of each order, through a select field. Orders will appear in a table when you click Orders;
 
 ## 🎨 Layout
+![App Screenshot](https://github.com/patizani/food-explorer-frontend/blob/main/github/Food_Explorer_-_Google_Chrome_2023-01-05_01-11-39_AdobeExpress.gif)
 ### Deploy
 
 [Food Explorer](https://foodexplorerpz.netlify.app/)
@@ -98,8 +100,3 @@ This project is under the license
 [MIT](https://github.com/patizani/food-explorer-frontend/new/main)
 
 Made with ❤️ by Patrícia Garcia Zanirati 👋🏽 [Get in Touch!](https://www.linkedin.com/in/patricia-zanirati/)
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
