@@ -17,6 +17,7 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 `;
 
@@ -85,6 +86,7 @@ export const Main = styled.div`
       max-width: 25rem;
       img {
         max-width: 100%;
+        margin-top: -90px;
       }
     }
     > div:nth-child(2) {
@@ -101,6 +103,7 @@ export const Main = styled.div`
       p {
         text-align: center;
         font-size: clamp(1.8rem, .4rem + 3vw, 2.4rem);
+        width: 80%;
       }
       div:nth-child(3) {
         img {
@@ -131,7 +134,7 @@ export const Info = styled.div`
 
   strong {
     min-width: 14rem;
-    font-size: clamp(2rem, 1rem + 3vw, 3.2rem);
+    font-size: clamp(2rem, 1rem + 2vw, 3.2rem);
     line-height: 5.1rem;
     color: ${({ theme }) => theme.COLORS.LIGHT_BLUE};
   }
@@ -151,6 +154,7 @@ export const Info = styled.div`
     justify-content: center;
 
     padding-inline: 2rem;
+    gap: 0.5rem;
     > strong{
       min-width: 10rem;
     } 

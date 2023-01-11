@@ -44,6 +44,7 @@ export const Container = styled.header`
     height: 13.4rem;
     padding: 0 1rem;
     align-items: center;
+    z-index: 1000 ;
 
 
     flex-wrap: wrap;

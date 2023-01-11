@@ -13,7 +13,7 @@ export const Container = styled.div`
   flex: none;
 
   @media only screen and (max-width: 992px) { 
-      z-index: -1;
+      /* z-index: -1; */
   }
 
   > button:first-child{

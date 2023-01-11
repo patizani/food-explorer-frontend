@@ -19,11 +19,15 @@ export function SignIn() {
 
 
   function handleSignIn() {
-    signIn({ email, password });
-    navigate("/");
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
+      signIn({ email, password });
+      navigate("/");
+    } else {
+      return alert("Informe um endereço de e-mail válido!");
+    }
   }
+
   return (
-    
     <Container>
       <div>
         <img 
@@ -35,7 +39,7 @@ export function SignIn() {
       <Form>
         <legend>Faça login</legend>
         <Input
-          type="email" 
+          type="email"
           label="email" 
           title="Email" 
           placeholder="Exemplo: exemplo@exemplo.com.br"

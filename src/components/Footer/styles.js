@@ -27,7 +27,7 @@ export const Container = styled.footer`
   @media screen and (max-width: 992px) {  
     justify-content: center;
     flex-direction: column;
-    align-items: inherit;
+    align-items: center;
     flex-wrap: inherit;
     gap: 1rem;
     padding: 0.4rem 5.3rem;

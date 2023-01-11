@@ -92,14 +92,14 @@ export const Slogan = styled.div`
     img {
       width: 100%;
       left: 0;
-      z-index: -1;
+      /* z-index: -1; */
 
     }
     > div {
       padding: 0;
       margin-top: 24rem;
       margin-bottom: 0.8rem;
-      z-index: -1;
+      /* z-index: -1; */
     }
   
   }

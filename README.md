@@ -1,5 +1,4 @@
-
-# Food Explorer
+# ![Logo](https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/logoHeader.svg) Food Explorer
 
 ## 💻 About
 The application that we will develop is a digital menu for a fictitious restaurant, known as foodExplorer.
@@ -60,6 +59,7 @@ $ npm install
 # Run the application in development mode
 $ npm run dev
 ```
+
 ## 
 - This BackEnd was hosted directly on [Render](https://render.com/). 
 - The Frontend was hosted directly on [Netlify](https://www.netlify.com/).
@@ -67,6 +67,7 @@ $ npm run dev
  **Note:** As it is hosted on a free service, the BackEnd "hibernates" after 15 minutes of inactivity.
 If you are trying to access the website and the BackEnd is unresponsive, just wait as it will be "initializing" the services.
 This step may take up to 1 minute, depending on the load on the Render servers.
+
 ## ⚙️ Features
 - A structured project, with a good organization of folders, division of components in the front-end, etc.
 - A README.md file with specifications on how to run the project in a dev environment.
@@ -97,3 +98,8 @@ This project is under the license
 [MIT](https://github.com/patizani/food-explorer-frontend/new/main)
 
 Made with ❤️ by Patrícia Garcia Zanirati 👋🏽 [Get in Touch!](https://www.linkedin.com/in/patricia-zanirati/)
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
