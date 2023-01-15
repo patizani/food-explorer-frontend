@@ -1,3 +1,4 @@
+
 # ![Capa](https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/capa.png) 
 
 ## 💻 About
@@ -89,7 +90,7 @@ This step may take up to 1 minute, depending on the load on the Render servers.
 
 ## 🎨 Layout
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/github/foodExplorer.gif" width="80%">
+  <img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/FoodExplorer.gif" width="100%">
 
 </p>
 
