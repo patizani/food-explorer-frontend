@@ -22,7 +22,6 @@ export const Container = styled.header`
     bottom: 0.3rem;
 
     font-size: 1.2rem;
-      
   }
 
   > button:nth-child(2){
@@ -31,7 +30,7 @@ export const Container = styled.header`
 
   .iconMobile {
       display: none;
-    }
+  }
     
   > button:nth-child(4) {
     width: clamp(15.6rem,1vw,21.6rem);
@@ -42,7 +41,7 @@ export const Container = styled.header`
 
   @media screen and (max-width: 992px) {  
     height: 13.4rem;
-    padding: 0 1rem;
+    padding: 0 3rem 0 0;
     align-items: center;
     z-index: 1000 ;
 

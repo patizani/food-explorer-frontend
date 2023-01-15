@@ -153,7 +153,7 @@ export const Info = styled.div`
   @media screen and (max-width: 992px) {  
     justify-content: center;
 
-    padding-inline: 2rem;
+    padding-inline: 4rem;
     gap: 0.5rem;
     > strong{
       min-width: 10rem;
