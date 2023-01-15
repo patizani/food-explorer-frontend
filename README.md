@@ -1,5 +1,4 @@
-
-# ![Logo](https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/logoHeader.svg) Food Explorer
+# ![Capa](https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/capa.png) 
 
 ## 💻 About
 The application that we will develop is a digital menu for a fictitious restaurant, known as foodExplorer.
@@ -93,6 +92,17 @@ This step may take up to 1 minute, depending on the load on the Render servers.
   <img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/github/foodExplorer.gif" width="80%">
 
 </p>
+
+### Deploy
+
+[Food Explorer](https://foodexplorerpz.netlify.app/)
+
+
+## 📝 License
+This project is under the license
+[MIT](https://github.com/patizani/food-explorer-frontend/new/main)
+
+Made with ❤️ by Patrícia Garcia Zanirati 👋🏽 [Get in Touch!](https://www.linkedin.com/in/patricia-zanirati/)
 
 ### Deploy
 
