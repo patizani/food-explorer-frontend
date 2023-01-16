@@ -94,6 +94,19 @@ This step may take up to 1 minute, depending on the load on the Render servers.
 
 </p>
 
+### Mobile
+<p>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen1.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen1.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen2.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen2.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen3.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen3.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen4.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen4.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen5.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen5.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen6.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen6.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen7.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen7.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen8.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen8.jpeg"" width="24%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen9.jpeg"><img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/screen9.jpeg"" width="24%" style="max-width: 100%;"></a>
+</p>
+
 ### Deploy
 
 [Food Explorer](https://foodexplorerpz.netlify.app/)
