@@ -16,19 +16,6 @@ export const Container = styled.div`
     
   overflow: hidden;
    
-
-  /* ::-webkit-scrollbar {
-      width: 1.5rem;
-  }
-  ::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0);
-  }
-  ::-webkit-scrollbar-thumb {
-      border: 5px solid transparent;
-      background-clip: padding-box;
-      background-color: ${({ theme }) => theme.COLORS.GRAY_100};
-      border-radius: 1rem;
-  } */
   > main {
     grid-area: content;
     overflow: auto;

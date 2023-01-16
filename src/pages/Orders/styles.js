@@ -71,6 +71,12 @@ export const Content = styled.div`
     color: ${({ theme }) => theme.COLORS.GRAY_400};
     text-align: center;
   }
+
+  @media screen and (max-width: 992px){
+    th, td {
+    padding-inline: 0.5rem;
+    }
+  }
 `;
 
 export const SelectWrapper = styled.div`
