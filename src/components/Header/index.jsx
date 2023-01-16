@@ -119,7 +119,17 @@ export function Header({search, toggleFavorites, isFiltered}){
         </button>
       }
 
-        {/* <div className="cart"> */}
+      {
+         user.isAdmin 
+         ?
+         <button
+            onClick={HandleRequest}
+            disabled={isCartIsEmpty}
+            className="cart">
+              <FiShoppingCart size={22} />
+            <span>{orders.length}</span>
+          </button> 
+         :
           <button
             onClick={HandleMyCart}
             disabled={isCartIsEmpty}
@@ -127,7 +137,7 @@ export function Header({search, toggleFavorites, isFiltered}){
               <FiShoppingCart size={22} />
             <span>{cart.length}</span>
           </button> 
-        {/* </div> */}
+      }
       </div>
     
       <Logout>
