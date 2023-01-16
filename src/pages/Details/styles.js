@@ -156,7 +156,7 @@ export const Info = styled.div`
     padding-inline: 4rem;
     gap: 0.5rem;
     > strong{
-      min-width: 10rem;
+      min-width: 8rem;
     } 
   }
 `;
