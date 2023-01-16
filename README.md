@@ -89,6 +89,7 @@ This step may take up to 1 minute, depending on the load on the Render servers.
 - The admin will view and control the status of each order, through a select field. Orders will appear in a table when you click Orders;
 
 ## 🎨 Layout
+### Web
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="foodexplorer" title="#foodexplorer" src="https://github.com/patizani/food-explorer-frontend/blob/main/src/assets/FoodExplorer.gif" width="100%">
 
