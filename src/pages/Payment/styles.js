@@ -4,21 +4,20 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  padding: 0 20px;
+  /* padding: 0 20px; */
   position: fixed;
 
   display: grid;
-  grid-template-rows: 10.5rem auto 5rem;
+  grid-template-rows: 10.5rem auto;
   grid-template-areas:
     "header"
-    "content"
-    "footer";
-
+    "content";
     height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    
+  overflow: hidden;
+   
 
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
       width: 1.5rem;
   }
   ::-webkit-scrollbar-track {
@@ -29,7 +28,25 @@ export const Container = styled.div`
       background-clip: padding-box;
       background-color: ${({ theme }) => theme.COLORS.GRAY_100};
       border-radius: 1rem;
-  }
+  } */
+  > main {
+    grid-area: content;
+    overflow: auto;
+    overflow-x: hidden;
+    
+    ::-webkit-scrollbar {
+      width: 1.5rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0);
+    }
+    ::-webkit-scrollbar-thumb {
+      border: 5px solid transparent;
+      background-clip: padding-box;
+      background-color: ${({ theme }) => theme.COLORS.GRAY_100};
+      border-radius: 1rem;
+    }    
+  }  
 `;
 
 export const Content = styled.div`
@@ -46,7 +63,7 @@ export const Content = styled.div`
   gap: 2rem;
 
   @media screen and (max-width: 992px){
-        display: flex;
+    display: flex;
     justify-content: center ;
     flex-direction: column;
     padding-inline: 2rem;
@@ -74,18 +91,19 @@ export const Content = styled.div`
       height: 70vh;
       overflow-y: auto;
       height: 36rem;
-    ::-webkit-scrollbar {
+      
+      ::-webkit-scrollbar {
         width: 15px;
-    }
-    ::-webkit-scrollbar-track {
+      }
+      ::-webkit-scrollbar-track {
         background: rgba(0, 0, 0, 0);
-    }
-    ::-webkit-scrollbar-thumb {
+      }
+      ::-webkit-scrollbar-thumb {
         border: 5px solid transparent;
         background-clip: padding-box;
         background-color: ${({ theme }) => theme.COLORS.GRAY_100};
         border-radius: 10px;
-    }
+      }
     }
     .orders-items {
       display: flex;
@@ -116,7 +134,7 @@ export const Content = styled.div`
       display: flex;
       gap: 5px;
       font-family: 'Poppins', sans-serif;
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 3.2rem;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       > span {
@@ -136,7 +154,12 @@ export const Content = styled.div`
       margin-top: 1rem;
       margin-bottom: 2rem;
     }
-   
+    
+    @media screen and (max-width: 992px){
+      .scroll {
+         height: 30rem;
+        }
+    }
   } 
    
   .payment {

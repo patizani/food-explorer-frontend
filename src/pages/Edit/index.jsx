@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 import { api } from '../../services/api';
 
-import { Container, Form, InputWrapper } from './styles';
+import { Container, Form, Content, InputWrapper } from './styles';
 
 import { Header } from '../../components/Header';
 import { ButtonBack } from '../../components/ButtonBack';
@@ -126,6 +126,7 @@ export function Edit() {
     <Container>
       <Header />
       <main>
+      <Content>
         <ButtonBack/>
         <Form onSubmit={handleUpdateProduct}>
           <legend>Editar prato</legend>
@@ -143,15 +144,17 @@ export function Edit() {
                 onChange={e => setImageFile(e.target.files[0])}
                 accept="image/*"></input>
             </div>
-            <Input
-              type="text" 
-              label="name" 
-              title="Nome" 
-              placeholder="Exemplo: Salada Ceasar"
-              value={title}
-              onChange={e => setTitle(e.target.value)}
-              required
-            />
+            <div className="resize">
+              <Input
+                type="text" 
+                label="name" 
+                title="Nome" 
+                placeholder="Exemplo: Salada Ceasar"
+                value={title}
+                onChange={e => setTitle(e.target.value)}
+                required
+              />
+            </div>
             <div className='dropdown'>
               <label>Categoria</label>
               <select name="category" value={category} onChange={e => setCategory(e.target.value)}>
@@ -209,6 +212,7 @@ export function Edit() {
              {loading ? "Atualizando pedido" : "Atualizar pedido"}
           </button>
         </Form>
+        </Content>
       </main>
       <Footer/>
     </Container>

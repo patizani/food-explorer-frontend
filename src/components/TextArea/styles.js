@@ -21,4 +21,8 @@ export const TextareaInput= styled.textarea`
     color: ${({ theme }) => theme.COLORS.GRAY_300};
     font-size: 1.6rem;
   }
+
+  @media screen and (max-width: 992px) {  
+    width: 90%;
+  }
 `;

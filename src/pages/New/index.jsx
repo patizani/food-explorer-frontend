@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import { api } from '../../services/api';
 
-import { Container, Form, InputWrapper } from './styles';
+import { Container, Content, Form, InputWrapper } from './styles';
 
 import { Header } from '../../components/Header';
 import { ButtonBack } from '../../components/ButtonBack';
@@ -108,6 +108,7 @@ export function New() {
     <Container>
       <Header />
       <main>
+      <Content>
         <ButtonBack/>
         <Form onSubmit={handleNewProduct}>
           <legend>Cadastrar prato</legend>
@@ -125,14 +126,16 @@ export function New() {
                 onChange={e => setImageFile(e.target.files[0])}
                 accept="image/*"></input>
             </div>
-            <Input
-              type="text" 
-              label="name" 
-              title="Nome" 
-              placeholder="Exemplo: Salada Ceasar"
-              onChange={e => setTitle(e.target.value)}
-              required
-            />
+            <div className="resize">
+              <Input
+                type="text" 
+                label="name" 
+                title="Nome" 
+                placeholder="Exemplo: Salada Ceasar"
+                onChange={e => setTitle(e.target.value)}
+                required
+              />
+            </div>
             <div className='dropdown'>
               <label>Categoria</label>
               <select defaultValue={'DEFAULT'} name="category" onChange={e => setCategory(e.target.value)}>
@@ -176,7 +179,6 @@ export function New() {
               />
             </div>
           </InputWrapper>
-          
           <TextArea 
             label="Description" 
             title="Descrição" 
@@ -188,8 +190,9 @@ export function New() {
             type="submit"
           >
             {loading ? "Adicionando pedido" : "Adicionar pedido"}
-          </button>
+          </button>         
         </Form>
+        </Content>
       </main>
       <Footer/>
     </Container>

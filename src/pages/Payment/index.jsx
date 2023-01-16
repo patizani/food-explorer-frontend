@@ -41,6 +41,7 @@ export function Payment() {
   return (
     <Container>
     <Header />
+    <main>
       <Content>
         <div className="orders">
           <h1>Meu Pedido</h1>
@@ -75,6 +76,7 @@ export function Payment() {
         </div>
       </Content>
     <Footer />
+    </main>
     </Container>
   );
 }

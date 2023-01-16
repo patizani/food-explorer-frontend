@@ -7,7 +7,7 @@ import { useCart } from '../../hooks/cart';
 
 import { api } from '../../services/api';
 
-import { FiSearch, FiShoppingCart, FiHeart } from 'react-icons/fi';
+import { FiSearch, FiShoppingCart, FiHeart, FiEdit } from 'react-icons/fi';
 import { Container, LogoHeader, Search, Logout } from './styles';
 import { ButtonText } from '../ButtonText';
 import { Button } from '../Button';
@@ -75,7 +75,6 @@ export function Header({search, toggleFavorites, isFiltered}){
             onClick={toggleFavorites}
           />
       }
- 
       <Search>
         {<FiSearch size={20}/>}
         <input 
@@ -103,12 +102,32 @@ export function Header({search, toggleFavorites, isFiltered}){
         />
      }
       <div className="iconMobile">
-        <FiHeart size={22} />
-        <div className="cart">
-          <FiShoppingCart size={22} />
-          <span>{cart.length}</span>
-        </div>
-       
+      {
+         user.isAdmin 
+         ?
+         <button
+         onClick={handleNewProduct}
+         className="btn">
+           <FiEdit size={22}/>
+       </button>
+         :
+       <button
+          isActive={isFiltered}
+          onClick={toggleFavorites}
+          className="btn">
+            <FiHeart size={22}/>
+        </button>
+      }
+
+        {/* <div className="cart"> */}
+          <button
+            onClick={HandleMyCart}
+            disabled={isCartIsEmpty}
+            className="cart">
+              <FiShoppingCart size={22} />
+            <span>{cart.length}</span>
+          </button> 
+        {/* </div> */}
       </div>
     
       <Logout>

@@ -30,6 +30,12 @@ export const Container = styled.header`
 
   .iconMobile {
       display: none;
+      .btn {
+        background: none;
+        border: none;
+        color: ${({ theme }) => theme.COLORS.WHITE};
+      }
+
   }
     
   > button:nth-child(4) {
@@ -41,7 +47,7 @@ export const Container = styled.header`
 
   @media screen and (max-width: 992px) {  
     height: 13.4rem;
-    padding: 0 3rem 0 0;
+    padding: 0 1rem 0 1rem;
     align-items: center;
     z-index: 1000 ;
 
@@ -58,12 +64,16 @@ export const Container = styled.header`
       justify-content: flex-end;
 
       position: absolute;
+      }
     }
 
     .cart {
       display: flex;
       flex-direction: column-reverse ;
       margin-top:-1.5rem ;
+      background: none;
+      border: none;
+      color: ${({ theme }) => theme.COLORS.WHITE};
       > span {
         font-size: 1.2rem;
         color: ${({ theme }) => theme.COLORS.LIGHT_BLUE}; 
